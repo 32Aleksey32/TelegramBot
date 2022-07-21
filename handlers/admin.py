@@ -2,7 +2,7 @@ from aiogram import types, Dispatcher
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
 from aiogram.dispatcher.filters.state import State, StatesGroup
-from create_bot import bot, dp
+from create_bot import bot
 from data_base import sqlite_db
 from keyboards import admin_kb
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton

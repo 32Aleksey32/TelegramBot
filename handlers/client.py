@@ -1,5 +1,5 @@
 from aiogram import types, Dispatcher
-from create_bot import dp, bot
+from create_bot import bot
 from keyboards import kb_client
 from data_base import sqlite_db
 
