@@ -2,7 +2,6 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 import hashlib
-from aiogram.types import InputTextMessageContent, InlineQueryResultArticle
 
 
 bot = Bot(token='5417687925:AAEpK521j1rMq39p6iwBcp74Ne1Ie6lpDvc')
