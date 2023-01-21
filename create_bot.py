@@ -1,9 +1,9 @@
 import os
-from aiogram import Bot
-from aiogram.dispatcher import Dispatcher
-from aiogram.contrib.fsm_storage.memory import MemoryStorage
-from dotenv import load_dotenv
 
+from aiogram import Bot
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
+from aiogram.dispatcher import Dispatcher
+from dotenv import load_dotenv
 
 storage = MemoryStorage()
 

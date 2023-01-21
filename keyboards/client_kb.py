@@ -1,6 +1,6 @@
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton # ReplyKeyboardRemove
+from aiogram.types import KeyboardButton, ReplyKeyboardMarkup
 
-
+"""Кнопки клавиатуры клиента."""
 b1 = KeyboardButton('/Режим_работы')
 b2 = KeyboardButton('/Расположение')
 b3 = KeyboardButton('/Меню')

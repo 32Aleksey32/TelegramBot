@@ -1,7 +1,8 @@
 from aiogram.utils import executor
+
 from create_bot import dp
-from handlers import client, admin
 from data_base import sqlite_db
+from handlers import admin, client
 
 
 async def on_startup(_):
