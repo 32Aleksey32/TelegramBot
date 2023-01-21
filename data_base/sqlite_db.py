@@ -1,8 +1,8 @@
-import sqlite3 as sq
+import sqlite3
 
 from create_bot import bot
 
-base = sq.connect('pizza_cool.db')
+base = sqlite3.connect('pizza_cool.db')
 cur = base.cursor()
 
 
